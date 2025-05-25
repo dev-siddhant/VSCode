@@ -1,0 +1,50 @@
+{
+"workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.emptySelectionClipboard": false,
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "window.nativeFullScreen": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": false,
+  "editor.minimap.enabled": false,
+  /**
+* Find
+**/
+"search.useIgnoreFiles": false,
+"search.exclude": {
+// Hide everything in /vendor, except the "laravel" and
+"livewire" folder.
+"**/vendor/{[^l],?[^ai]}*": true,
+// Hide everything in /public, except "index.php"
+"**/public/{[^i],?[^n]}*": true,
+"**/node_modules": true,
+"**/dist": true,
+"**/_ide_helper.php": true,
+"**/composer.lock": true,
+"**/package-lock.json": true,
+"storage": true,
+".phpunit.result.cache": true,
+"**/vendor/{[^l],?[^ai]}*": true,
+"editor.multiCursorModifier": "ctrlCmd",
+
+}
